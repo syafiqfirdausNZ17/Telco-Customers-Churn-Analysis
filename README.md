@@ -52,7 +52,7 @@ EDA was performed to understand customer behavior patterns.
 
 ### 📊 Churn Distribution
 
-![Churn Distribution](Churn_Distribution.png)
+![Churn Distribution](charts/Churn_Distribution.png)
 
 
 
