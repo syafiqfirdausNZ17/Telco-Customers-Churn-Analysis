@@ -51,10 +51,11 @@ The dataset contains customer-level telecom information.
 EDA was performed to understand customer behavior patterns.
 
 ### 📊 Churn Distribution
-```
-![Churn Distribution](charts/Churn_Distribution.png)
 
-```
+![Churn Distribution](Churn_Distribution.png)
+
+
+
 
 ### 📄 Churn by Contract Type
 Customers with **month-to-month contracts** show the highest churn rate.
