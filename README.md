@@ -52,25 +52,26 @@ EDA was performed to understand customer behavior patterns.
 
 ### 📊 Churn Distribution
 ```
-[Paste churn class balance chart here]
+[Churn Distribution](charts/Churn Distribution.png)
+
 ```
 
 ### 📄 Churn by Contract Type
 Customers with **month-to-month contracts** show the highest churn rate.
 ```
-[Paste churn vs contract type chart here]
+[Churn by Contract](charts/Churn By Contract Type.png)
 ```
 
 ### 💰 Churn vs Monthly Charges
 Higher monthly charges are associated with increased churn risk.
 ```
-[Paste monthly charges vs churn visualization here]
+[Churn vs Monthly Charges](charts/Charges by Churn Status.png)
 ```
 
 ### ⏳ Tenure vs Churn
 Longer tenure customers show strong loyalty and lower churn probability.
 ```
-[Paste tenure vs churn graph here]
+
 ```
 
 ### 🔒 Services Impact
