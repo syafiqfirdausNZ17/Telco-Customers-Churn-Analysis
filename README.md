@@ -4,7 +4,7 @@ Predicting **customer churn** using Machine Learning to help telecom companies r
 
 ---
 
-## 🧠 1. Business Problem
+## 🧠  Business Problem
 
 Customer churn is one of the biggest revenue risks in the telecom industry.  
 Acquiring new customers costs significantly more than retaining existing ones.
@@ -19,7 +19,7 @@ This project builds a **machine learning solution** to predict churn and uncover
 
 ---
 
-## 🎯 2. Project Objective
+## 🎯  Project Objective
 
 To develop a predictive model that identifies customers at high risk of churning using:
 
@@ -32,7 +32,7 @@ The focus is on **Recall and F1-score**, since failing to identify a churner is 
 
 ---
 
-## 🗂 3. Dataset Overview
+## 🗂  Dataset Overview
 
 The dataset contains customer-level telecom information.
 
@@ -46,7 +46,7 @@ The dataset contains customer-level telecom information.
 
 ---
 
-## 🔍 4. Exploratory Data Analysis (EDA)
+## 🔍  Exploratory Data Analysis (EDA)
 
 EDA was performed to understand customer behavior patterns.
 
@@ -54,39 +54,29 @@ EDA was performed to understand customer behavior patterns.
 
 ![Churn Distribution](charts/Churn_Distribution.png)
 
-
+![Churn Distribution by gender and age](charts/Churn_By_Gender_and-Senior_Citizen.png)
 
 
 ### 📄 Churn by Contract Type
 Customers with **month-to-month contracts** show the highest churn rate.
-```
-![Churn by Contract](charts/Churn By Contract Type.png)
-```
+
+![Churn by Contract Type](charts/Churn_By_Contract_Type.png)
+
 
 ### 💰 Churn vs Monthly Charges
 Higher monthly charges are associated with increased churn risk.
-```
-[Churn vs Monthly Charges](charts/Charges by Churn Status.png)
-```
+
+![Churn vs Monthly Charges](charts/Churn_by_monthly_charges.png)
+
 
 ### ⏳ Tenure vs Churn
 Longer tenure customers show strong loyalty and lower churn probability.
-```
 
-```
+![Tenure vs Churn](charts/Tenure_VS_Churn.png)
 
-### 🔒 Services Impact
-Customers without these services churn more:
-- Online Security  
-- Tech Support  
-- Device Protection  
-```
-[Paste services vs churn charts here]
-```
 
----
 
-## ⚙️ 5. Data Preprocessing
+## ⚙️  Data Preprocessing
 
 - Handled missing values  
 - Encoded categorical variables  
@@ -96,7 +86,7 @@ Customers without these services churn more:
 
 ---
 
-## 🧩 6. Feature Engineering
+## 🧩  Feature Engineering
 
 - Transformed contract and payment features  
 - Structured tenure and charges variables  
@@ -104,7 +94,7 @@ Customers without these services churn more:
 
 ---
 
-## 🤖 7. Machine Learning Models
+## 🤖  Machine Learning Models
 
 Multiple algorithms were tested and compared.
 
@@ -119,7 +109,7 @@ Multiple algorithms were tested and compared.
 
 ---
 
-## 📊 8. Model Evaluation Strategy
+## 📊  Model Evaluation Strategy
 
 Because churn datasets are often **imbalanced**, evaluation emphasized:
 
@@ -130,23 +120,30 @@ Because churn datasets are often **imbalanced**, evaluation emphasized:
 
 ---
 
-## 📈 9. Model Performance Comparison
+## 📈  Model Performance Comparison
 
-```
-[Paste model comparison table: Accuracy, Precision, Recall, F1-score, ROC-AUC]
-```
+![ Model Performance Comparison](charts/Model_Comparison.png)
 
----
 
-## 🔲 10. Confusion Matrix
 
-```
-[Paste best model confusion matrix heatmap here]
-```
 
----
+## 🔲  Confusion Matrix
 
-## 📌 11. Feature Importance
+
+![Decision Tree](charts/Decision_Tree_Confusion_Matrix.png)
+
+![K-Nearest Neighbors](charts/K_Nearest_Neighbors_Confusion_Matrix.png)
+
+![Logistics Regression](charts/Logistics_Regression_Confusion_Matrix.png)
+
+![Random Forest](charts/Random_Forest_Confusion_Matrix.png)
+
+![Support Vector Classifier](charts/Support_Vector_Classifier_Confusion_Matrix.png)
+
+![XG Boost](charts/XGBoost_Confusion_Matrix.png)
+
+
+## 📌  Feature Importance
 
 Key predictors of churn:
 
@@ -156,13 +153,13 @@ Key predictors of churn:
 - Online security  
 - Tech support  
 
-```
-[Paste feature importance bar chart here]
-```
 
----
+![Feature Importance](charts/Top_15_Most_Important_Features_Random_Forest.png)
 
-## 🏆 12. Key Insights
+
+
+
+## 🏆  Key Insights
 
 ✔ Month-to-month contracts drive churn  
 ✔ Higher monthly charges increase churn risk  
@@ -171,7 +168,7 @@ Key predictors of churn:
 
 ---
 
-## 💼 13. Business Impact
+## 💼  Business Impact
 
 This model can help telecom companies:
 
@@ -182,7 +179,7 @@ This model can help telecom companies:
 
 ---
 
-## 🚀 14. How to Run
+## 🚀  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -191,7 +188,7 @@ jupyter notebook "Telco Customer Churn.ipynb"
 
 ---
 
-## 🔮 15. Future Improvements
+## 🔮  Future Improvements
 
 - Handle class imbalance using **SMOTE**  
 - Add **SHAP** for model explainability  
@@ -200,7 +197,7 @@ jupyter notebook "Telco Customer Churn.ipynb"
 
 ---
 
-## 👤 16. Author
+## 👤  Author
 
 **Syafiq Firdaus**  
 Data Science | Machine Learning | Analytics  
