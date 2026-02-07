@@ -54,6 +54,8 @@ EDA was performed to understand customer behavior patterns.
 
 ![Churn Distribution](charts/Churn_Distribution.png)
 
+### 🧑‍💼 Churn Distribution by Gender and Senior Citizen Status
+
 ![Churn Distribution by gender and age](charts/Churn_By_Gender_and-Senior_Citizen.png)
 
 
