@@ -59,7 +59,7 @@ EDA was performed to understand customer behavior patterns.
 ### 📄 Churn by Contract Type
 Customers with **month-to-month contracts** show the highest churn rate.
 ```
-[Churn by Contract](charts/Churn By Contract Type.png)
+![Churn by Contract](charts/Churn By Contract Type.png)
 ```
 
 ### 💰 Churn vs Monthly Charges
